@@ -1,0 +1,26 @@
+{
+    "name": "wljs-plugin-example-4",
+    "version": "0.0.1",
+    "scripts": {
+        "build": "node --max-old-space-size=8192 ./node_modules/.bin/rollup --config rollup.config.mjs",
+        "restore": "git clone https://github.com/JerryI/wljs-plugin-example-4 && mv wljs-plugin-example-4/.git .git && rm -rf wljs-plugin-example-4"
+    },
+    "description": "An example spellcheck plugin for WLJS Notebook.",
+    "wljs-meta": {
+        "js": "src/kernel.js",
+        "priority": 5000,
+        "frontend": "src/Frontend.wl",
+        "category": "Notebook Extensions"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JerryI/wljs-plugin-example-4"
+    },
+    "dependencies": {
+        "@rollup/plugin-commonjs": "^25.0.4",
+        "@rollup/plugin-json": "^6.0.0",
+        "@rollup/plugin-node-resolve": "^15.2.1",
+        "@rollup/plugin-terser": "^0.4.4",
+        "rollup": "^3.21.6"
+    }
+}
