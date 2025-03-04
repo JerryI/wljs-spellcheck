@@ -4,6 +4,8 @@
 ## Installation
 
 Option 1: clone it to `AppData/wljs-notebook/wljs_packages`
+
+
 Option 2: copy a url of this repo to installation URL window in options
 
 ## Example
