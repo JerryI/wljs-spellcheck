@@ -1,6 +1,8 @@
 # WLJS Spellcheck Plugin 
 *An example spellcheck extension written with Wolfram Language and Javascript*
 
+![](./src/spellcheck.png)
+
 ## Installation
 
 Option 1: clone it to `AppData/wljs-notebook/wljs_packages`
